@@ -9,7 +9,7 @@ var items = [
 
 app.get("/", (req,res) => {
     //res.send("Bienvenido a Admin");
-    res.render("pages/admin", {title: "Admin", items, isAdmin: true});
+    res.render("pages/admin", {title: "Admin", items, isAdmin: false});
 })
 
 app.get("/altas", (req,res) => {

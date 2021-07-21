@@ -7,7 +7,7 @@ var app = express();
 app.get("/", (req,res) => {
 
     /*  logica para obtener el nombre del usuario    */
-    var user = "Pedro";
+    var user = "Francisco";
 
     res.render('pages/home', {title: 'Home', usuario: user});
 })
